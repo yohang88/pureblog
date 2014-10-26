@@ -66,6 +66,8 @@
 
                             <?php the_content() ?>
 
+                            <div style="margin-bottom:25px"></div>
+
                             <footer>
                             <?php
                                 $posttags = get_the_tags();
@@ -76,7 +78,11 @@
                             <?php endforeach ?>
                             </footer>
 
+                            <?php if ( ! is_single() ) : ?>
                             <span class="comments-link"><?php comments_popup_link('Tanggapan', '1 tanggapan', '% tanggapan'); ?></span>
+                            <?php endif; ?>
+
+                            <div style="margin-bottom:25px"></div>
 
                             <?php comments_template(); ?>
                         </div>
