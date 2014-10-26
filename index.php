@@ -84,12 +84,17 @@
 
                             <?php if ( ! is_single() ) : ?>
                             <span class="comments-link"><?php comments_popup_link('Tanggapan', '1 tanggapan', '% tanggapan'); ?></span>
-                            <?php endif; ?>
+
+                            <?php else: ?>
+
 
                             <?php previous_post('&laquo; %', '', 'yes'); ?>
-                            | <?php next_post('% &raquo; ', '', 'yes'); ?>
+                            <?php next_post('% &raquo; ', '', 'yes'); ?>
 
                             <?php comments_template(); ?>
+
+                            <?php endif; ?>
+
                         </div>
 
                     </article>
