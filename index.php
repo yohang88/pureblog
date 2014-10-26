@@ -87,9 +87,13 @@
 
                             <?php else: ?>
 
-
-                            <?php previous_post('&laquo; %', '', 'yes'); ?>
+                            <div style="float:right">
                             <?php next_post('% &raquo; ', '', 'yes'); ?>
+                            </div>
+
+                            <div style="float:left">
+                            <?php previous_post('&laquo; %', '', 'yes'); ?>
+                            </div>
 
                             <div style="margin-bottom:25px"></div>
 
