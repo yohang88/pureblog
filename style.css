@@ -90,7 +90,8 @@ This is the parent `<div>` that contains the menu and the content area.
     color: #888;
 }
 
-.content img {
+.content img,
+.content .wp-caption {
     max-width: 100%;
     height: auto;
 }
