@@ -43,7 +43,7 @@
         <div id="main">
             <div class="header">
                 <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-                <h2>Code is poetry</h2>
+                <h2><?php bloginfo( 'description' ); ?></h2>
             </div>
 
 
