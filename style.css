@@ -15,6 +15,10 @@ margin: 1.5em 0;
            font-size: 70%;
        }
 
+.pure-menu .pure-menu-heading {
+    text-transform: none;
+}
+
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
@@ -161,7 +165,7 @@ appears on the left side of the page.
     */
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
-        background: #1f8dd6;
+        /*background: #1f8dd6;*/
     }
         /*
         This styles a link within a selected menu item `<li>`.

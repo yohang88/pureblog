@@ -34,9 +34,8 @@
             <div class="pure-menu pure-menu-open">
                 <a class="pure-menu-heading" href="#">yohang.net</a>
 
-                <ul>
-                    <li><a href="#">Home</a></li>
-                </ul>
+                <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => '', 'depth' => 1 ) ); ?>
+
             </div>
         </div>
 
