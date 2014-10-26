@@ -66,7 +66,15 @@
 
                             <?php the_content() ?>
 
-                            <?php the_tags( '<footer><span class="tag-links">', '', '</span></footer>' ); ?>
+                            <footer>
+                            <?php
+                                $posttags = get_the_tags();
+
+                                foreach ($posttags as $posttag):
+                            ?>
+                            <a class="pure-button" href="<?php echo get_tag_link($posttag->id); ?>"><?php echo $posttag->name ?></a>
+                            <?php endforeach ?>
+                            </footer>
 
                         </div>
 
