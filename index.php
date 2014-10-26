@@ -97,7 +97,15 @@
                 <?php endwhile; ?>
 
                 <div class="content">
+
+                <?php if ( ! is_single() ) : ?>
                 <?php posts_nav_link(); ?>
+                <?php else : ?>
+
+                <?php previous_post('&laquo; &laquo; %', '', 'yes'); ?>
+                | <?php next_post('% &raquo; &raquo; ', '', 'yes'); ?>
+                <?php endif; ?>
+
                 </div>
 
                 <?php else : ?>
