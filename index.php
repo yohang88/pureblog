@@ -96,7 +96,9 @@
 
                 <?php endwhile; ?>
 
+                <div class="content">
                 <?php posts_nav_link(); ?>
+                </div>
 
                 <?php else : ?>
 
