@@ -70,7 +70,7 @@
 
                                 foreach ($posttags as $posttag):
                             ?>
-                            <a class="pure-button" href="<?php echo get_tag_link($posttag->id); ?>"><?php echo $posttag->name ?></a>
+                            <a class="pure-button button-xsmall" href="<?php echo get_tag_link($posttag->id); ?>"><?php echo $posttag->name ?></a>
                             <?php endforeach ?>
                             </footer>
 
