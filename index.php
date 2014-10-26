@@ -78,11 +78,14 @@
                             <?php endforeach ?>
                             </footer>
 
+                            <div style="margin-bottom:25px"></div>
+
+
+
                             <?php if ( ! is_single() ) : ?>
                             <span class="comments-link"><?php comments_popup_link('Tanggapan', '1 tanggapan', '% tanggapan'); ?></span>
                             <?php endif; ?>
 
-                            <div style="margin-bottom:25px"></div>
 
                             <?php comments_template(); ?>
                         </div>
