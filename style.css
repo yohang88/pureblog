@@ -60,11 +60,12 @@ This is the parent `<div>` that contains the menu and the content area.
 
 
 .header {
-     margin: 0;
+     margin: 0 auto;
      color: #333;
      text-align: center;
      padding: 2.5em 2em 0;
      border-bottom: 1px solid #eee;
+     max-width: 768px;
  }
     .header h1 {
         margin: 0.2em 0;
@@ -87,7 +88,7 @@ This is the parent `<div>` that contains the menu and the content area.
 .content {
     margin: 0 auto;
     padding: 0 2em;
-    max-width: 800px;
+    max-width: 768px;
     margin-bottom: 50px;
     line-height: 1.6em;
 }
