@@ -91,6 +91,8 @@
                             <?php previous_post('&laquo; %', '', 'yes'); ?>
                             <?php next_post('% &raquo; ', '', 'yes'); ?>
 
+                            <div style="margin-bottom:25px"></div>
+
                             <?php comments_template(); ?>
 
                             <?php endif; ?>
