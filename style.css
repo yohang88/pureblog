@@ -111,6 +111,11 @@ This is the parent `<div>` that contains the menu and the content area.
     height: auto;
 }
 
+
+.content li {
+    margin: 25px 0;
+}
+
 /*
 The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
 appears on the left side of the page.
