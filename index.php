@@ -76,10 +76,13 @@
                             <?php endforeach ?>
                             </footer>
 
+                            <span class="comments-link"><?php comments_popup_link('Tanggapan', '1 tanggapan', '% tanggapan'); ?></span>
+
+                            <?php comments_template(); ?>
                         </div>
 
-
                     </article>
+
 
 
                 <?php endwhile; ?>
