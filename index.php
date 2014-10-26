@@ -86,6 +86,8 @@
                             <span class="comments-link"><?php comments_popup_link('Tanggapan', '1 tanggapan', '% tanggapan'); ?></span>
                             <?php endif; ?>
 
+                            <?php previous_post('&laquo; %', '', 'yes'); ?>
+                            | <?php next_post('% &raquo; ', '', 'yes'); ?>
 
                             <?php comments_template(); ?>
                         </div>
@@ -98,13 +100,7 @@
 
                 <div class="content">
 
-                <?php if ( ! is_single() ) : ?>
                 <?php posts_nav_link(); ?>
-                <?php else : ?>
-
-                <?php previous_post('&laquo; &laquo; %', '', 'yes'); ?>
-                | <?php next_post('% &raquo; &raquo; ', '', 'yes'); ?>
-                <?php endif; ?>
 
                 </div>
 
