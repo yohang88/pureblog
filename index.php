@@ -88,11 +88,11 @@
                             <?php else: ?>
 
                             <div style="float:left">
-                            <?php next_post('&raquo %; ', '', 'yes'); ?>
+                            <?php next_post('% &laquo; ', '', 'yes'); ?>
                             </div>
 
                             <div style="float:right">
-                            <?php previous_post('% &laquo;', '', 'yes'); ?>
+                            <?php previous_post('&raquo; %', '', 'yes'); ?>
                             </div>
 
                             <div style="clear: both; margin-bottom:25px"></div>
