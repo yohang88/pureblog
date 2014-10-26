@@ -64,10 +64,6 @@
                                 <?php endif; ?>
                             </header>
 
-                            <?php the_content() ?>
-
-                            <div style="margin-bottom:25px"></div>
-
                             <footer>
                             <?php
                                 $posttags = get_the_tags();
@@ -81,6 +77,13 @@
                             <div style="margin-bottom:25px"></div>
 
 
+                            <?php the_content() ?>
+
+
+
+                            <div style="margin-bottom:25px"></div>
+
+
 
                             <?php if ( ! is_single() ) : ?>
                             <span class="comments-link"><?php comments_popup_link('Tanggapan', '1 tanggapan', '% tanggapan'); ?></span>
@@ -88,11 +91,11 @@
                             <?php else: ?>
 
                             <div style="float:left">
-                            <?php next_post('% &laquo; ', '', 'yes'); ?>
+                            <?php next_post('&laquo; %', '', 'yes'); ?>
                             </div>
 
                             <div style="float:right">
-                            <?php previous_post('&raquo; %', '', 'yes'); ?>
+                            <?php previous_post('% &raquo;', '', 'yes'); ?>
                             </div>
 
                             <div style="clear: both; margin-bottom:25px"></div>
