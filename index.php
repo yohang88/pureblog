@@ -87,15 +87,15 @@
 
                             <?php else: ?>
 
-                            <div style="float:right">
+                            <div style="float:left">
                             <?php next_post('% &raquo; ', '', 'yes'); ?>
                             </div>
 
-                            <div style="float:left">
+                            <div style="float:right">
                             <?php previous_post('&laquo; %', '', 'yes'); ?>
                             </div>
 
-                            <div style="margin-bottom:25px"></div>
+                            <div style="clear: both; margin-bottom:25px"></div>
 
                             <?php comments_template(); ?>
 
